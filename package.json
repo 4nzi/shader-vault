@@ -1,0 +1,32 @@
+{
+	"name": "shader-vault",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"volta": {
+		"node": "20.11.1",
+		"npm": "10.4.0"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"lil-gui": "^0.19.1",
+		"vite": "^5.1.0"
+	},
+	"dependencies": {
+		"three": "^0.161.0"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"trailingComma": "all",
+		"printWidth": 120,
+		"tabWidth": 2,
+		"useTabs": true,
+		"proseWrap": "preserve",
+		"endOfLine": "auto"
+	}
+}
